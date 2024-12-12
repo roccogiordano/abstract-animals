@@ -1,5 +1,6 @@
-public class Dolphin extends Animals {
+public class Dolphin extends Animals implements SwimmingAnimals {
     
+    @Override
     public void eat() {
         
         System.out.println("Eating some fish!");
@@ -11,6 +12,11 @@ public class Dolphin extends Animals {
         
         System.out.println("HIHI! HIHI!");
 
+    }
+
+    @Override
+    public void swim() {
+        System.out.println("Dolphin is swimming!");
     }
 
 }

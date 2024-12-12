@@ -1,5 +1,6 @@
-public class Sparrow extends Animals {
+public class Sparrow extends Animals implements FlyingAnimals {
     
+    @Override
     public void eat() {
         
         System.out.println("Eating some seeds!");
@@ -11,6 +12,11 @@ public class Sparrow extends Animals {
         
         System.out.println("CIP! CIP!");
 
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Sparrow is flying!");
     }
 
 }
