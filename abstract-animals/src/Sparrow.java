@@ -1,4 +1,9 @@
+// Sparrow Class
+
 public class Sparrow extends Animals implements FlyingAnimals {
+
+
+    // Sparrow Methods
 
     public Sparrow() {}
     
@@ -21,4 +26,9 @@ public class Sparrow extends Animals implements FlyingAnimals {
         System.out.println("Sparrow is flying!");
     }
 
+    //
+    
+
 }
+
+//

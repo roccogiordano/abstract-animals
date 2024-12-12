@@ -1,5 +1,10 @@
+// Eagle Class
+
 public class Eagle extends Animals implements FlyingAnimals {
     
+
+    // Eagle Methods
+
     public Eagle() {}
 
     @Override
@@ -21,4 +26,9 @@ public class Eagle extends Animals implements FlyingAnimals {
         System.out.println("Eagle is flying!");
     }
 
+    //
+    
+
 }
+
+//

@@ -1,4 +1,9 @@
+// Dog Class
+
 public class Dog extends Animals {
+
+
+    // Dog Methods
 
     public Dog() {}
     
@@ -16,4 +21,9 @@ public class Dog extends Animals {
 
     }
 
+    //
+    
+
 }
+
+//

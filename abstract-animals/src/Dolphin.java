@@ -1,4 +1,9 @@
+// Dolphin Class
+
 public class Dolphin extends Animals implements SwimmingAnimals {
+
+
+    // Dolphin Methods
 
     public Dolphin() {}
     
@@ -21,4 +26,9 @@ public class Dolphin extends Animals implements SwimmingAnimals {
         System.out.println("Dolphin is swimming!");
     }
 
+    //
+
+    
 }
+
+//
