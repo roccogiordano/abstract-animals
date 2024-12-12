@@ -1,4 +1,6 @@
 public class Sparrow extends Animals implements FlyingAnimals {
+
+    public Sparrow() {}
     
     @Override
     public void eat() {

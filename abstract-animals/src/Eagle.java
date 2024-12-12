@@ -1,5 +1,7 @@
 public class Eagle extends Animals implements FlyingAnimals {
     
+    public Eagle() {}
+
     @Override
     public void eat() {
         

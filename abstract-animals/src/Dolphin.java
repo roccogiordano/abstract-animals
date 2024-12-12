@@ -1,4 +1,6 @@
 public class Dolphin extends Animals implements SwimmingAnimals {
+
+    public Dolphin() {}
     
     @Override
     public void eat() {

@@ -1,4 +1,6 @@
 public class Dog extends Animals {
+
+    public Dog() {}
     
     @Override
     public void eat() {
