@@ -9,9 +9,9 @@ public class Main {
 
     }
 
-    public static void makeItSwim(SwimmingAnimals flyingAnimal) {
+    public static void makeItSwim(SwimmingAnimals swimmingAnimal) {
 
-        flyingAnimal.swim();
+        swimmingAnimal.swim();
 
     }
 
